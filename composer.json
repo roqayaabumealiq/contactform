@@ -1,0 +1,25 @@
+{
+    "name": "roqayapackage/contactform",
+    "description": "laravel contact from package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Roqayapackage\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Roqayapackage\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "roqaya abu mealiq"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
